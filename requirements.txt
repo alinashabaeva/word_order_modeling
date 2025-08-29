@@ -1,0 +1,19 @@
+# Core dependencies (conda environment 'wordorder' for best compatibility)
+# conda create -n wordorder python=3.11
+# conda activate wordorder
+# conda install -c conda-forge pandas numpy openpyxl stanza gensim tqdm spacy openai scikit-learn matplotlib
+
+# dependencies
+stanza>=1.10.0
+pandas>=2.3.0
+numpy>=1.26.0
+openpyxl>=3.1.0
+gensim>=4.3.0
+tqdm>=4.64.0
+spacy>=3.8.0
+openai>=1.101.0
+
+# ML dependencies
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+
